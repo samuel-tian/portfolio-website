@@ -6,12 +6,12 @@ const fiatcrypto = () => {
     <div className="w-full">
       <h2>Fiat Cryptography</h2>
       <div className="flex gap-2">
-        <div class='tag'>Formal Verification</div>
-        <div class='tag'>Coq</div>
+        <div className='tag'>Formal Verification</div>
+        <div className='tag'>Coq</div>
       </div>
-      <a href="https://github.com/mit-plv/fiat-crypto" target="_blank">
+      <a href="https://github.com/mit-plv/fiat-crypto" target="_blank" rel="noreferrer">
         <div className="inline-block">
-          <div class="btn">
+          <div className="btn">
             <AiFillGithub />
           </div>
         </div>
@@ -29,7 +29,7 @@ const fiatcrypto = () => {
         algorithm, which is necessary for implementations of Curve25519 and
         other popular elliptic curves. Recent developments in the fiat-crypto
         compiler infrastructure would enable this algorithm to be faster than
-        the library's existing reduction algorithm.
+        the library&apos;s existing reduction algorithm.
       </p>
     </div>
   );

@@ -5,16 +5,16 @@ const depth = () => {
     <div className="w-full">
       <h2>Monocular Depth Perception</h2>
       <div className="flex gap-2">
-        <div class="tag">Computer Vision</div>
-        <div class="tag">Keras</div>
-        <div class="tag">Tensorflow</div>
-        <div class="tag">Python</div>
+        <div className="tag">Computer Vision</div>
+        <div className="tag">Keras</div>
+        <div className="tag">Tensorflow</div>
+        <div className="tag">Python</div>
       </div>
       <p>
         As a personal project, I followed the famous{" "}
         <a
           href="https://arxiv.org/pdf/1406.2283.pdf"
-          target="_blank"
+          target="_blank" rel="noreferrer"
           className="underline underline-offset-1"
         >
           paper

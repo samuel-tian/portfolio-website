@@ -14,14 +14,14 @@ const hsmc = () => {
       </p>
       <h3>Maritime Threat Detection</h3>
       <div className="flex gap-2">
-        <div class="tag">Machine Learning</div>
-        <div class="tag">Signal Processing</div>
-        <div class="tag">C++</div>
-        <div class="tag">Python</div>
+        <div className="tag">Machine Learning</div>
+        <div className="tag">Signal Processing</div>
+        <div className="tag">C++</div>
+        <div className="tag">Python</div>
       </div>
-      <a href="https://github.com/samuel-tian/threat_detection" target="_blank">
+      <a href="https://github.com/samuel-tian/threat_detection" target="_blank" rel="noreferrer">
         <div className="inline-block">
-          <div class="btn">
+          <div className="btn">
             <AiFillGithub />
           </div>
         </div>
@@ -36,12 +36,12 @@ const hsmc = () => {
 
       <h3>Lossless Data Compression</h3>
       <div className="flex gap-2">
-        <div class="tag">Data Compression</div>
-        <div class="tag">C++</div>
+        <div className="tag">Data Compression</div>
+        <div className="tag">C++</div>
       </div>
-      <a href="/assets/delta_sfe.pdf" target="_blank">
+      <a href="/assets/delta_sfe.pdf" target="_blank" rel="noreferrer">
         <div className="inline-block">
-          <div class="btn">
+          <div className="btn">
             <IoIosPaper />
           </div>
         </div>
@@ -54,7 +54,7 @@ const hsmc = () => {
 
       <h3>Integrity Validation using DLTs</h3>
       <div className="flex gap-2">
-        <div class="tag">Blockchain</div>
+        <div className="tag">Blockchain</div>
       </div>
       <p></p>
     </div>

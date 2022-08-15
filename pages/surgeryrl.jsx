@@ -6,13 +6,13 @@ const surgeryrl = () => {
     <div className="w-full">
       <h2>Surgical Reinforcement Learning</h2>
       <div className="flex gap-2">
-        <div class='tag'>Reinforcement Learning</div>
-        <div class='tag'>Pytorch</div>
-        <div class='tag'>Python</div>
+        <div className='tag'>Reinforcement Learning</div>
+        <div className='tag'>Pytorch</div>
+        <div className='tag'>Python</div>
       </div>
-      <a href="https://github.com/samuel-tian/IsaacGymEnvs" target="_blank">
+      <a href="https://github.com/samuel-tian/IsaacGymEnvs" target="_blank" rel="noreferrer">
         <div className="inline-block">
-          <div class="btn">
+          <div className="btn">
             <AiFillGithub />
           </div>
         </div>
