@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @layer base {
   body {
-    @apply bg-white text-black;
+    @apply bg-white text-black max-w-2xl px-5 mx-auto my-0 font-['Open_Sans']
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -12,19 +18,32 @@
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl;
+    @apply text-3xl mb-3
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl;
+    @apply text-xl mb-2
+  }
+
+  h3 {
+    @apply text-lg mb-2
+  }
+
+  p {
+    @apply mb-2
   }
 
   li {
     @apply cursor-pointer
   }
 
-  button {
-    @apply shadow-xl shadow-gray-400 rounded-xl
-  }
+}
 
+@layer base {
+  .btn {
+    @apply rounded-full shadow-sm p-2 hover:bg-gray-50 cursor-pointer
+  }
+  .tag {
+    @apply text-sm rounded border p-1 mb-1.5 border-gray-100 bg-gray-100
+  }
 }

@@ -1,20 +1,40 @@
-import React from 'react'
-import { AiFillGithub, AiFillLinkedin, AiOutlineProfile } from 'react-icons/ai'
+import Link from "next/link";
+import React from "react";
+import { AiFillGithub, AiFillLinkedin, AiOutlineProfile } from "react-icons/ai";
 
 const About = () => {
-    return (
-        <div>
-            <h1>Sam Tian</h1>
-            <p>Hi! My name is Sam, and I am a sophomore studying computer science at MIT.</p>
-            <ul>
-                <li><a href="https://github.com/samuel-tian"><AiFillGithub/></a></li>
-                <li><a href="https://www.linkedin.com/in/samuel-tian/"><AiFillLinkedin/></a></li>
-                <li><a href="../static/Resume_SamuelTian.pdf"><AiOutlineProfile/></a></li>
-            </ul>
-            
-        </div>
-    
-  )
-}
+  return (
+    <div id="about" className="w-full">
+      <h1>Sam Tian</h1>
+      <p>
+        Hi! My name is Sam, and I am a sophomore studying computer science at
+        MIT.
+      </p>
+      <ul className="mt-2 mb-6 flex gap-5">
+        <li>
+          <a href="https://github.com/samuel-tian" target="_blank">
+            <div class="btn">
+              <AiFillGithub />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/samuel-tian/" target="_blank">
+            <div class="btn">
+              <AiFillLinkedin />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="/assets/Resume_SamuelTian.pdf" target="_blank">
+            <div class="btn">
+              <AiOutlineProfile />
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
+};
 
-export default About
+export default About;
