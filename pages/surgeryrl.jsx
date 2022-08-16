@@ -28,7 +28,7 @@ const surgeryrl = () => {
         surgical settings is surprisingly sparse (although understandable, given
         the risk of such surgeries), so I am working on designing a RL
         environment that simulates a patient side manipulator interacting with a
-        deformable kidney-gallbladder compound mesh.
+        deformable liver-gallbladder compound mesh.
       </p>
     </div>
   );

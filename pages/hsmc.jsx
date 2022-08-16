@@ -19,7 +19,11 @@ const hsmc = () => {
         <div className="tag">C++</div>
         <div className="tag">Python</div>
       </div>
-      <a href="https://github.com/samuel-tian/threat_detection" target="_blank" rel="noreferrer">
+      <a
+        href="https://github.com/samuel-tian/threat_detection"
+        target="_blank"
+        rel="noreferrer"
+      >
         <div className="inline-block">
           <div className="btn">
             <AiFillGithub />
@@ -55,8 +59,13 @@ const hsmc = () => {
       <h3>Integrity Validation using DLTs</h3>
       <div className="flex gap-2">
         <div className="tag">Blockchain</div>
+        <div className="tag">Big Data</div>
       </div>
-      <p></p>
+      <p>
+        This was more of a thought experiment regarding the potential use cases
+        of blockchains and smart contracts. One use case in particular was the
+        exchange of large amounts of data between two entities.
+      </p>
     </div>
   );
 };
