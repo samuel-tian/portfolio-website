@@ -35,7 +35,7 @@ const About = () => {
 				</li>
 				<li>
 					<a
-						href="/assets/Resume2_SamuelTian.pdf"
+						href="/assets/SamuelTian_Resume.pdf"
 						target="_blank"
 						rel="noreferrer"
 					>
