@@ -1,19 +1,19 @@
 import React from "react";
-import ProjectItem from "./ProjectItem";
+import ClassItem from "./ClassItem";
 
 const Classes = () => {
-	return (
-		<div id="classes" className="w-full mb-6">
-			<h2>Classes</h2>
-			<div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4">
-				<ProjectItem
-					title="6.8611: Quantitative Methods for Natural Language Processing"
-					page="/6861"
-				/>
-				<ProjectItem title="6.1910: Computation Structures" page="/6004" />
-			</div>
-		</div>
-	);
+  return (
+    <div id="classes" className="w-full mb-6">
+      <h2>Classes</h2>
+      <div className="grid grid-cols-1 gap-2">
+        <ClassItem
+          title="6.8611: Quantitative Methods for Natural Language Processing"
+          page="/6861"
+        />
+        <ClassItem title="6.1910: Computation Structures" page="/6004" />
+      </div>
+    </div>
+  );
 };
 
 export default Classes;

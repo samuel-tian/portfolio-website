@@ -23,7 +23,7 @@ const fiatcrypto = () => {
           </div>
         </a>
         <a
-          href="https://cs.adelaide.edu.au/~yval/pdfs/KuepperEGSWCCGWY23.pdf"
+          href="https://arxiv.org/abs/2211.10665"
           target="_blank"
           rel="noreferrer"
         >
